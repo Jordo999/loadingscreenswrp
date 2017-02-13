@@ -4,7 +4,7 @@
 // You can get a Steam API Key by visiting http://steamcommunity.com/dev/apikey
 // Don't worry about the web address, it won't have any effect so just type in any web site
 // Once you have your steam API Key simply paste the key below. (Make sure the quotation marks are still there or else it won't work)
-$SteamAPIKey = "INSERT YOUR STEAM API KEY HERE";
+$SteamAPIKey = "B8319A83DA229A30A53C986EF344B476";
 
 
 // Don't edit any of the PHP stuff here or else you may break the script
@@ -110,13 +110,13 @@ $table = $table2["response"]["players"][0];
             
             
             <div class="title server">
-            	<h2>Server</h2><!-- Adds in the server title, you can change the text to be whatever you would like -->
+            	<h2>ConductRP</h2><!-- Adds in the server title, you can change the text to be whatever you would like -->
            	</div>
             
             <!-- Lets get the server Details in here -->
             <ul id="server-list">
-            	<li><img src="images/server-name.png" alt="Server Name" /> <span id="s-name">Server Name</span></li><!-- Dynamically adds the server name -->
-                <li><img src="images/server-mode.png" alt="Game Mode" /> <span id="s-mode">Server Game Mode</span></li><!-- Dynamically adds game mode name -->
+            	<li><img src="images/server-name.png" alt="Server Name" /> <span id="s-name">ConductRP SWRP</span></li><!-- Dynamically adds the server name -->
+                <li><img src="images/server-mode.png" alt="Game Mode" /> <span id="s-mode">Star Wars RP</span></li><!-- Dynamically adds game mode name -->
                 <li><img src="images/server-map.png" alt="Map Name" /> <span id="s-map">Server Map Name</span></li><!-- Dynamically adds map name -->
            	</ul>
             
